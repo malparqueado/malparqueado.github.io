@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Astral by HTML5 UP</title>
+		<title>Malparqueado - Cocina Urbana</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -48,13 +48,8 @@
 						<!-- Instagram -->
 							<article id="instagram" class="panel">
 								<header>
-									<h2>Instagram</h2>
+									<h2><a href='https://www.instagram.com/malparqueados/' target="_blank">@malparqueados</a></h2>
 								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
-								</p>
 								<section>
 									<div class="row" id='instafeed'></div>
 								</section>
@@ -114,10 +109,18 @@
       <script type="text/javascript">
         var feed = new Instafeed({
           get: 'user',
-          userId: '185026389',
-          accessToken: '185026389.1677ed0.5fd5afd0bec845d2875a0dc16bdefee6'
+          userId: '4729945197',
+          accessToken: '4729945197.1677ed0.a99805cf39294021bea37427cda0872d',
+          after: function() {
+            external();
+          }
         });
         feed.run();
+        function external(){
+          jQuery(document).ready(function($){
+          $('#instafeed a').attr('target','_blank');
+        });
+      }
       </script>
       <script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
