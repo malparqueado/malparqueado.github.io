@@ -748,6 +748,7 @@
 
 	body {
 		background-color: #f8c31a;
+		background-image: url("images/vainitas3.png");
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;
@@ -1333,7 +1334,7 @@
 
 			#me {
 				padding: 0;
-				height: 20em;
+				height: 40em;
 			}
 
 				#me .pic {
