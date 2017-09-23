@@ -841,7 +841,7 @@
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #1c1c1b;
+		color: #ffffff;
 		margin: 0 0 1em 0;
 	}
 
@@ -952,8 +952,8 @@
 	.button {
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
-		color: #1c1c1b;
+		background-color: #1c1c1b;
+		color: #ffffff;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
@@ -1271,8 +1271,8 @@
 					#nav a span {
 						display: block;
 						position: absolute;
-						background: #222222;
-						color: #1c1c1b;
+						background: #1c1c1b;
+						color: #ffffff;
 						top: -2.75em;
 						font-size: 0.3em;
 						height: 2.25em;
