@@ -13,6 +13,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f8c31a">
+    <meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
   <div id="fb-root"></div>
@@ -69,25 +75,26 @@
 						<!-- Contact -->
 							<article id="contact" class="panel">
 								<header>
-									<h2>Contact Me</h2>
+									<h2>Contáctenos</h2>
 								</header>
-								<form action="#" method="post">
+								<form action="https://formspree.io/admin@malparqueado.co" method="post">
 									<div>
 										<div class="row">
 											<div class="6u 12u$(mobile)">
-												<input type="text" name="name" placeholder="Name" />
+												<input type="text" name="name" placeholder="Nombre" />
 											</div>
+                      <input type="hidden" name="_language" value="es" />
 											<div class="6u$ 12u$(mobile)">
 												<input type="text" name="email" placeholder="Email" />
 											</div>
 											<div class="12u$">
-												<input type="text" name="subject" placeholder="Subject" />
+												<input type="text" name="_subject" placeholder="Asunto" />
 											</div>
 											<div class="12u$">
-												<textarea name="message" placeholder="Message" rows="8"></textarea>
+												<textarea name="message" placeholder="Mensaje" rows="8"></textarea>
 											</div>
 											<div class="12u$">
-												<input type="submit" value="Send Message" />
+												<input type="submit" value="Enviar" />
 											</div>
 										</div>
 									</div>
