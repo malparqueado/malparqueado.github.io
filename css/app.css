@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'allerbold';
+    src: url('aller_bd-webfont.woff2') format('woff2'),
+         url('aller_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('aller_rg-webfont.woff2') format('woff2'),
+         url('aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: "allerregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
+}
+
+.image-with-text {
+  position: relative;
+}
+
+.image-with-text img {
+    position: absolute;
+    width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    font-size: 2rem;
+
+    left: 33%;
+    text-align: center;
+    top: 80px;
+    width: 33%;
+}
+
+.section {
+  height: 100vh;
+}
+
+.section p {
+  padding: 15px;
+  font-size: 2rem
+}
+.hero-full-screen {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("../images_2/main-carousel/1.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.hero-full-screen .middle-content-section {
+  text-align: center;
+  color: #fefefe;
+}
+
+.hero-full-screen .top-content-section {
+  width: 100%;
+}
+
+.hero-full-screen .bottom-content-section {
+  padding: 1rem;
+}
+
+.hero-full-screen .bottom-content-section svg {
+  height: 3.75rem;
+  width: 3.75rem;
+  fill: #fefefe;
+}
+
+.hero-full-screen .top-bar {
+  background-color: #ffffff
+}
+
+.hero-full-screen .top-bar .menu {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu-text {
+  color: #fefefe;
+}
+
+.hero-full-screen .top-bar .menu li {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-full-screen .top-bar .menu a {
+  color: #1c1c1b;
+  font-weight: bold;
+}
+
+.off-canvas a {
+  color:#ffffff;
+}
+
+.menu-logo {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.title-bar {
+  background: #1c1c1b;
+  color: #ffffff;
+}
+
+.off-canvas {
+  background: #1c1c1b
+}
